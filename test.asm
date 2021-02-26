@@ -1,0 +1,12 @@
+move $4, $7
+STRING_COUNTER:
+move $2, $0
+STRING_COUNTER_LOOP:
+beq $4, $0, END_STRING_COUNTER
+srl $5, $4, 1
+and $4, $4, $5
+addi $2, $2, 1
+j STRING_COUNTER_LOOP
+END_STRING_COUNTER:
+move $16, $2
+END:

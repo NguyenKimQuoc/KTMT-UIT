@@ -1,0 +1,9 @@
+
+State Machine - |Lab6_ktmt|Lab6_qsys:u0|Lab6_qsys_nios2_qsys_0:nios2_qsys_0|Lab6_qsys_nios2_qsys_0_nios2_oci:the_Lab6_qsys_nios2_qsys_0_nios2_oci|Lab6_qsys_nios2_qsys_0_jtag_debug_module_wrapper:the_Lab6_qsys_nios2_qsys_0_jtag_debug_module_wrapper|Lab6_qsys_nios2_qsys_0_jtag_debug_module_tck:the_Lab6_qsys_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

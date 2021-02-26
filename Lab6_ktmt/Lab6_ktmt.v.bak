@@ -1,0 +1,14 @@
+module Lab6_ktmt (CLOCK_50, SW, KEY, LEDR, LEDG);
+input CLOCK_50;
+input [7:0] SW;
+input [0:0] KEY;
+output [7:0] LEDG;
+output [15:0] LEDR;
+	Lab6_qsys u0 (
+        .clk_clk                               (CLOCK_50),                               //                            clk.clk
+        .reset_reset_n                         (KEY),                         //                          reset.reset_n
+        .new_number_external_connection_export (SW), // new_number_external_connection.export
+        .green_led_external_connection_export  (LEDG),  //  green_led_external_connection.export
+        .red_led_external_connection_export    (LEDR)     //    red_led_external_connection.export
+    );
+endmodule
